@@ -1,0 +1,33 @@
+{
+  "devDependencies": {
+    "ts-node": "^10.6.0",
+    "typescript": "^4.6.2"
+  },
+  "name": "avltree-typescript",
+  "version": "1.0.0",
+  "description": "A multi type AVLTree made with typescript",
+  "main": "AVLTreeTest.ts",
+  "dependencies": {
+    "acorn": "^8.7.0",
+    "acorn-walk": "^8.2.0",
+    "arg": "^4.1.3",
+    "create-require": "^1.1.1",
+    "diff": "^4.0.2",
+    "v8-compile-cache-lib": "^3.0.0",
+    "make-error": "^1.3.6",
+    "yn": "^3.1.1"
+  },
+  "scripts": {
+    "test": "ts-node AVLTreeTest.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "d1gitalflow"
+  },
+  "keywords": [
+    "avltree",
+    "typescript"
+  ],
+  "author": "d1gitalflow",
+  "license": "ISC"
+}
